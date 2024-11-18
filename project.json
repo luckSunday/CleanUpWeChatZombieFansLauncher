@@ -1,19 +1,48 @@
 {
+  "abis": null,
   "assets": [],
   "build": {
-    "build_id": "",
-    "build_number": 0,
-    "build_time": 0
+      "build_number": null,
+      "build_time": null,
+      "release": null
   },
+  "encryptLevel": 0,
   "useFeatures": [],
-  "icon": "res/logo.png",
   "launchConfig": {
-    "hideLogs": true
+      "displaySplash": true,
+      "hideLogs": false,
+      "splashText": "Powered by Auto.js Pro",
+      "stableMode": false,
+      "splashIcon": null,
+      "splashLayoutXml": null
   },
   "main": "main.js",
-  "name": "清理微信僵尸粉启动器",
-  "packageName": "com.l8426936.cleanupwechatzombiefanslauncher",
+  "name": "chatbot",
+  "optimization": {
+      "removeOpenCv": true,
+      "unusedResources": false,
+      "removeAccessibilityService": null,
+      "obfuscateComponents": true
+  },
+  "packageName": "com.script.chatbot",
   "scripts": {},
-  "versionCode": 5,
-  "versionName": "1.0.4"
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "icon": "",
+  "publish": null,
+  "signingConfig": null,
+  "androidResources": null,
+  "permissionConfig": {
+      "manifestPermissions": [
+          "android.permission.INTERNET",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK"
+      ],
+      "requestListOnStartup": [
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+  },
+  "features": null,
+  "plugins": null,
+  "type": null
 }
